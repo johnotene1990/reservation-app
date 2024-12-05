@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/reservation-app/static/css/main.1e7dd4b6.css",
+    "main.js": "/reservation-app/static/js/main.a1ab80cc.js",
+    "static/js/453.242d340d.chunk.js": "/reservation-app/static/js/453.242d340d.chunk.js",
+    "static/media/testim1.jpg": "/reservation-app/static/media/testim1.e14e3651ac0b61fc3fca.jpg",
+    "static/media/testim2.jpg": "/reservation-app/static/media/testim2.1e5d2305b92510026d66.jpg",
+    "static/media/navimage2.jpg": "/reservation-app/static/media/navimage2.ae9344cb8a33943868d5.jpg",
+    "static/media/tourimage.jpg": "/reservation-app/static/media/tourimage.3f3122c112dc0038ed46.jpg",
+    "static/media/serviceimage.jpg": "/reservation-app/static/media/serviceimage.43f74949afdb1b48ca21.jpg",
+    "static/media/tourimage2.jpg": "/reservation-app/static/media/tourimage2.75f214e052a62a9cba31.jpg",
+    "static/media/questimage1.jpg": "/reservation-app/static/media/questimage1.ada46653b6220e26ea7c.jpg",
+    "static/media/blogimage1.jpg": "/reservation-app/static/media/blogimage1.07d9fd7a9dcf557015fb.jpg",
+    "static/media/aboutimage1.jpg": "/reservation-app/static/media/aboutimage1.f00c97b80931c4ca521e.jpg",
+    "static/media/aboutimage4.jpg": "/reservation-app/static/media/aboutimage4.8664e28e0f0251525bb5.jpg",
+    "static/media/aboutimage3.jpg": "/reservation-app/static/media/aboutimage3.7cbd2e4ba480b21c6c1d.jpg",
+    "static/media/aboutimage2.jpg": "/reservation-app/static/media/aboutimage2.73f2c22e32807f6a60bd.jpg",
+    "static/media/blogimage2.jpg": "/reservation-app/static/media/blogimage2.8d628e00d53b7c96ea40.jpg",
+    "static/media/slick.svg": "/reservation-app/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/reservation-app/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/reservation-app/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/reservation-app/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/reservation-app/index.html",
+    "main.1e7dd4b6.css.map": "/reservation-app/static/css/main.1e7dd4b6.css.map",
+    "main.a1ab80cc.js.map": "/reservation-app/static/js/main.a1ab80cc.js.map",
+    "453.242d340d.chunk.js.map": "/reservation-app/static/js/453.242d340d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e7dd4b6.css",
+    "static/js/main.a1ab80cc.js"
+  ]
+}
