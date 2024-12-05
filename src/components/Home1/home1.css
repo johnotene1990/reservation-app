@@ -1,0 +1,175 @@
+/* Default styles for larger screens */
+.con {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+    background: whitesmoke;
+    padding: 50px;
+    }
+    
+    .con h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: grey;
+    text-transform: none;
+    margin-top: 5px;
+    font-weight: 900;
+    }
+    
+    .con p {
+    font-size: 1.2em;
+    color: black;
+    margin: 5px;
+    text-transform: none;
+    margin-top: 20px;
+    font-style: italic;
+    }
+    
+    .con .image-right {
+    margin-top: -20px;
+    margin-left: 40px;
+    }
+    
+    .con h2 {
+    font-size: 40px;
+    color: blue;
+    margin-top: 5px;
+    font-weight: 900;
+    }
+    
+    .image-right {
+    margin-left: 50px;
+    }
+    
+    .btn {
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    }
+    
+    .sign-up-btn {
+    background-color: #4c44f3;
+    color: #fff;
+    }
+    
+    .search-btn {
+    background-color: #e9ecef;
+    color: #6c757d;
+    }
+    
+    .title-left {
+    margin-left: 10px;
+    font-size: 30px;
+    color: blue;
+    font-weight: 900;
+    }
+    
+    .title {
+    font-size: 25px;
+    margin-left: 10px;
+    color: grey;
+    margin-top: 10px;
+    font-weight: 900;
+    text-transform: none;
+    }
+    
+    .big-button {
+    margin-left: 40px;
+    width: 80%;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    }
+    
+    /* Responsive styles for tablets and smaller screens */
+    @media (max-width: 768px) {
+    .con {
+    flex-direction: column;
+    padding: 20px;
+    }
+    
+    .con h1 {
+    font-size: 2em;
+    }
+    
+    .con p {
+    font-size: 1em;
+    }
+    
+    .con .image-right {
+    margin-left: 0;
+    margin-top: 20px;
+    }
+    
+    .con h2 {
+    font-size: 30px;
+    }
+    
+    .btn {
+    padding: 8px 30px;
+    font-size: 14px;
+    }
+    
+    .title-left {
+    font-size: 25px;
+    }
+    
+    .title {
+    font-size: 20px;
+    }
+    
+    .big-button {
+    width: 100%;
+    margin-left: 0;
+    }
+    }
+    
+    /* Responsive styles for mobile phones */
+    @media (max-width: 480px) {
+    .con {
+    flex-direction: column;
+    padding: 10px;
+    }
+    
+    .con h1 {
+    font-size: 1.5em;
+    }
+    
+    .con p {
+    font-size: 0.9em;
+    }
+    
+    .con .image-right {
+    margin-left: 0;
+    margin-top: 10px;
+    }
+    
+    .con h2 {
+    font-size: 25px;
+    }
+    
+    .btn {
+    padding: 6px 20px;
+    font-size: 12px;
+    }
+    
+    .title-left {
+    font-size: 20px;
+    }
+    
+    .title {
+    font-size: 18px;
+    }
+    
+    .big-button {
+    width: 100%;
+    margin-left: 0;
+    }
+    }

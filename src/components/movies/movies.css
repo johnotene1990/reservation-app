@@ -1,0 +1,87 @@
+/* Default styles for larger screens */
+.movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    }
+    
+    .movie-item {
+    width: 20%; /* 100% / 5 columns */
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    }
+    
+    .movi {
+    font-size: 30px;
+    }
+    
+    .movie-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    }
+    
+    .new-column {
+    clear: left;
+    }
+    
+    .moves {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    }
+    
+    .mov {
+    margin-top: 15%;
+    }
+    
+    /* Responsive styles for tablets and smaller screens */
+    @media (max-width: 768px) {
+    .movie-item {
+    width: 50%; /* 2 columns */
+    }
+    
+    .movi {
+    font-size: 24px;
+    }
+    
+    .moves {
+    margin-top: 5%;
+    padding: 5px 10px;
+    }
+    
+    .mov {
+    margin-top: 10%;
+    }
+    }
+    
+    /* Responsive styles for mobile phones */
+    @media (max-width: 480px) {
+    .movie-item {
+    width: 100%; /* 1 column */
+    }
+    
+    .movi {
+    font-size: 20px;
+    }
+    
+    .moves {
+    margin-top: 2%;
+    padding: 5px;
+    }
+    
+    .mov {
+    margin-top: 5%;
+    }
+    }

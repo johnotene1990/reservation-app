@@ -1,0 +1,207 @@
+/* Default styles for larger screens */
+.Nav {
+    width: 100%;
+    background: whitesmoke;
+    color: black;
+    padding: 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    }
+    
+    .Nav .tra {
+    margin-top: 25px;
+    margin-right: 2px;
+    }
+    
+    .Nav ul {
+    display: flex;
+    color: #000;
+    list-style: none;
+    margin: 20px 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    }
+    
+    .Nav ul li {
+    margin-left: 40px;
+    margin-top: 10px;
+    }
+    
+    .Nav ul .log {
+    margin-right: 50px;
+    }
+    
+    .view {
+    display: flex;
+    margin-top: 30px;
+    margin-right: 20px;
+    }
+    
+    .fontimage {
+    margin-top: -40px;
+    }
+    
+    .container .tra {
+    margin-top: 10px;
+    }
+    
+    .part {
+    margin-top: 80px;
+    margin-right: 10px;
+    }
+    
+    .title {
+    margin-top: 100px;
+    margin-left: -100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .title h1 {
+    color: rgb(63, 63, 201);
+    font-size: xx-larger;
+    margin-top: 5px;
+    }
+    
+    .title h2 {
+    color: rgb(94, 19, 19);
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 5px;
+    }
+    
+    .title p {
+    font-size: 25px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    }
+    
+    .big-button {
+    width: 250px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: blue;
+    display: flex;
+    width: 60%;
+    border-radius: 40px;
+    }
+    
+    .btn {
+    font-size: 20px;
+    border-radius: 10px;
+    color: blue;
+    margin-right: 10px;
+    margin-left: 30px;
+    width: 70%;
+    }
+    
+    .btn2 {
+    font-size: 20px;
+    min-width: 10px;
+    border-radius: 10px;
+    width: 80%;
+    }
+    
+    /* Responsive styles for tablets and smaller screens */
+    @media (max-width: 768px) {
+    .Nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    }
+    
+    .Nav ul {
+    flex-direction: column;
+    margin: 10px 0;
+    }
+    
+    .Nav ul li {
+    margin-left: 0;
+    margin-top: 10px;
+    }
+    
+    .title {
+    margin-left: 0;
+    margin-top: 50px;
+    }
+    
+    .title h1 {
+    font-size: 30px;
+    }
+    
+    .title h2 {
+    font-size: 25px;
+    }
+    
+    .title p {
+    font-size: 20px;
+    margin-left: 0;
+    }
+    
+    .big-button {
+    width: 100%;
+    margin-top: 20px;
+    }
+    
+    .btn, .btn2 {
+    width: 100%;
+    margin-left: 0;
+    }
+    }
+    
+    /* Responsive styles for mobile phones */
+    @media (max-width: 480px) {
+    .Nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    }
+    
+    .Nav ul {
+    flex-direction: column;
+    margin: 5px 0;
+    }
+    
+    .Nav ul li {
+    margin-left: 0;
+    margin-top: 5px;
+    }
+    
+    .title {
+    margin-left: 0;
+    margin-top: 30px;
+    }
+    
+    .title h1 {
+    font-size: 25px;
+    }
+    
+    .title h2 {
+    font-size: 20px;
+    }
+    
+    .title p {
+    font-size: 18px;
+    margin-left: 0;
+    }
+    
+    .big-button {
+    width: 100%;
+    margin-top: 10px;
+    }
+    
+    .btn, .btn2 {
+    width: 100%;
+    margin-left: 0;
+    }
+    }
